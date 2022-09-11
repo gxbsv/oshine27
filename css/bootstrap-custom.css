@@ -3,6 +3,7 @@ a{
 	color: #2293d7;
 }
 .navbar-light {
+	font-family: 'Poppins', sans-serif;
 	background-color:transparent!important;
 	font-size:12px;
 }
