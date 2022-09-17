@@ -42,11 +42,11 @@ header {
 }
 
 #hero {
-	background-image: url("../img/gallery-2.jpg");
+	/*background-image: url("../img/gallery-2.jpg");
 	background-size: cover;
 	background-repeat:no-repeat;
 	background-position: center;
-	padding: 8% 0;
+	padding: 8% 0;*/
 	text-align: center;
 }
 
@@ -158,6 +158,7 @@ transforming h4 {
 	letter-spacing: 1px;
 	border-radius: 30px;
 	padding: 10px 10px;
+	
 }
 
 
@@ -186,7 +187,7 @@ transforming h4 {
 
 .btn-play{
 	background-color: #fff;
-	width: ;
+	width: 80px;
 	height: 80px;
 	line-height: 86px;
 	display: block;
@@ -223,3 +224,38 @@ transforming h4 {
 	letter-spacing: 1px;
 	margin-top: 10px;
 }
+
+#hero.overlay{
+	postion: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index:1;
+	
+}
+
+#hero.carousel-caption{
+	z-index:2;
+}
+
+.to-top{
+	position: fixed;
+	right: 10;
+	bottom: 40;
+	background-color: #000;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	z-index: 100;
+}
+
+
+#write-to-us{
+	padding: 100px;
+}
+
+
+
+
